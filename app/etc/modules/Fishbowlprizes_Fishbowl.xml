@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Fishbowlprizes_Fishbowl>
+			<active>true</active>
+			<codePool>community</codePool>
+			<version>1.0.0</version>
+		</Fishbowlprizes_Fishbowl>
+	</modules>
+</config>

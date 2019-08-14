@@ -1,0 +1,21 @@
+div.efishbowl-notice { background: #eaf0ee none repeat scroll 0 0;
+	border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    padding: 11px 10px;
+
+}
+.fishbowl_list,ul .fishbowl_list li
+{
+	margin-top:10px;
+}
+.border
+{
+	border-bottom:1px solid #3497DB;
+	margin:10px 0;
+}
+.varsion{
+	color:#eb5e00;
+}
+.help_content li{
+	padding:10px;
+}

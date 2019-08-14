@@ -1,0 +1,7 @@
+<?php
+	$helper = Mage::helper('fishbowl');
+	$script = $helper->getFishbowlScript();
+	if($helper->checkModuleEnabled()):
+	if($script) { ?>
+	<script type="text/javascript"  src="<?php echo $script; ?>"></script>
+<?php } endif; ?>

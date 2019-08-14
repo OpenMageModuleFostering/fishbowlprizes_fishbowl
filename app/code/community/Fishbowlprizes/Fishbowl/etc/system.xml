@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <fishbowl translate="label">
+            <label>Fishbowl Prizes</label>
+            <sort_order>200</sort_order>
+		</fishbowl>
+	</tabs>
+    <sections>
+        <fishbowl translate="label">
+            <class>separator-top</class>
+            <label>Settings</label>
+            <tab>fishbowl</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>40</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<hint>
+					<frontend_model>fishbowl_adminhtml/system_config_fieldset_hint</frontend_model>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+				</hint>
+                <general translate="label">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+					<expanded>1</expanded>
+                    <sort_order>100</sort_order>
+                    <show_in_default>0</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>1</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+						</enabled>
+						<activate translate="label comment">
+							<label>Activate</label>
+							<sort_order>2</sort_order>
+							<frontend_model>fishbowl_adminhtml/system_config_form_field_html</frontend_model>
+							<show_in_default>0</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<depends><enabled>1</enabled></depends>
+						</activate>
+						<ccode translate="label comment">
+							<label>CCode</label>
+                            <frontend_type>text</frontend_type>
+							<frontend_model>fishbowl_adminhtml/system_config_form_field_hidden</frontend_model> <sort_order>30</sort_order>
+							<comment>Do not edit the CCode</comment>
+							<show_in_default>0</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</ccode>
+						<rcode translate="label comment">
+							<label>RCode</label>
+                            <frontend_type>text</frontend_type>
+							<frontend_model>fishbowl_adminhtml/system_config_form_field_hidden</frontend_model>
+                            <sort_order>40</sort_order>
+							<comment>Do not edit the RCode</comment>
+							<show_in_default>0</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</rcode>
+					</fields>
+				</general>
+			</groups>
+		</fishbowl>
+	</sections>
+</config>

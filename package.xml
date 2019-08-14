@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fishbowlprizes_Fishbowl</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Fishbowl Prizes is a simple solution for operating and prize giveaway to display on your website, combined with a marketplace showing all of the best giveaways run by merchants using the software.</summary>
+    <description>Fishbowl for Magento will integrate the Fishbowl widget to the website. &#xD;
+&#xD;
+This widget will display the offers/prizes from the merchant's Fishbowl account. This serves as an attraction for the customers visiting the website and they provide their valuable email ids to the website.&#xD;
+&#xD;
+This method is similar to newsletter subscriptions, but this will attract more customers as they get some value or discount or offers in return for their Email ids.&#xD;
+&#xD;
+Thus, the merchant receives more and more lead, which can be later used to focus on Targeted marketing.</description>
+    <notes>Launching Fishbowl prizes extension</notes>
+    <authors><author><name>Fishbowl Prizes</name><user>fishbowl</user><email>scott@fishbowlprizes.com</email></author></authors>
+    <date>2016-01-12</date>
+    <time>09:30:36</time>
+    <contents><target name="magecommunity"><dir name="Fishbowlprizes"><dir name="Fishbowl"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Hint.php" hash="ca6db52ae7d9082707df7cb9316778b5"/></dir><dir name="Form"><dir name="Field"><file name="Hidden.php" hash="fccceb45db20b704d8d74a3570a76bd6"/><file name="Html.php" hash="10f7fc1ff3c82f03b934d627bd55f53e"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="d7db5c9dcb00f546102dce8cbf54a780"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Fishbowl"><file name="ResponseController.php" hash="a90f2bb4dfdb837bca7296cb18eff399"/></dir><file name="SetupController.php" hash="bfea77a75e02f5981e5a69120c89baa6"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="a04b372bbd9a74f758ce2c89991b1ca0"/><file name="config.xml" hash="3e278cbc9f4f9d841dbe54ba5b9f0072"/><file name="system.xml" hash="30db50023ee9f531377f75bc812fc1cc"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="fishbowl.xml" hash="6d14ab59033814151815566c20887776"/></dir><dir name="template"><dir name="fishbowl"><dir name="system"><dir name="config"><dir name="fieldset"><file name="hint.phtml" hash="ce728103ee43bd1d4f3c2f597a2baed2"/></dir></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="fishbowl.xml" hash="8a2d15069168708a92a09c3340a082f4"/></dir><dir name="template"><dir name="fishbowl"><file name="fishbowl.phtml" hash="88e2ab9a4d3e86c6fc5ef6f6952bf523"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="fishbowl"><file name="fishbowl.css" hash="b42ea357ca1734a67f29d03584e1b978"/><file name="fishbowl_logo.jpg" hash="aeb6b05492574ec78d8b9abc6038f97f"/><file name="fishbowl_logo.png" hash="4a4eca68a995ad4f672e55e146a107a5"/><file name="old_remove_fishbowl.png" hash="f89c725b326dd9099994206fb6f24246"/><file name="old_setting_acive.png" hash="7b105d55a1a622fbccde1c25bd67bb8b"/><file name="remove_fishbowl.png" hash="eebe24e2b976189bc87b207e13c30b15"/><file name="setting_acive.png" hash="7d7d2856161b75887bed2aa936e923b6"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Fishbowlprizes_Fishbowl.xml" hash="2d98630e7101f01cecbddb9ea274c320"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.13</max></php></required></dependencies>
+</package>

@@ -1,0 +1,39 @@
+<?php
+	/**
+		* @see Rage_Efishbowl_Block_Adminhtml_System_Config_Fieldset_Hint
+	*/
+?>
+<div class="efishbowl-notice">
+	<img src="<?php echo $this->getSkinUrl('fishbowl/fishbowl_logo.png') ?>" width="" height="" /><br>
+	<ul class="fishbowl_list">
+		<li>
+			<span class="varsion">Fishbowl v<?php echo $this->getEfishbowlVersion();?></span> integrates the Fishbowl Prizes widget in your Magento Website.
+			Fishbowl brings in the Fishbowl Widget into any Magento website, which enhances the user experience and involvment in the website, thus usefull in collecting more customer emails than a conventional newsletter subscription.<a href="#" onclick="help_visibility('content_wrapper');">Help</a>
+		</li>
+	</ul>
+	<div id="content_wrapper" style="display:none">
+		<div class="border clear"></div>
+		<div class="help_content">
+			Fishbowl v<?php echo $this->getEfishbowlVersion();?> needs to be configured with your <a href="http://www.fishbowlprizes.com/" target="_blank">Fishbowl account</a>.
+			<ul>
+				<li>Step 1: Select a website in which Fishbowl widget needs to be integrated</li>
+				<img src="<?php echo $this->getSkinUrl('fishbowl/setting_acive.png') ?>" width="700" height="200" />
+				<li>Step 2: Click the "Get Access" button. You'll be redirected to Fishbowl website on a separate window, where you have to login to your <a href="http://www.fishbowlprizes.com/" target="_blank">merchant account</a></li>
+				<li>Step 3: Then you'll be automatically redirected back to the Fishbowl configuration page.</li>
+				<li>Step 4: You can disable the widget just by selecting "Enable" to "No".</li>
+				<li>Step 5: For removing the widget all together, click the "Remove Account" button.</li>
+				<img src="<?php echo $this->getSkinUrl('fishbowl/remove_fishbowl.png') ?>" width="700" height="200" />
+			</ul>
+			Note: You can manage the widgets separately for each website, if you run a Multi-website Magento installation.
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+    function help_visibility(id) {
+		var e = document.getElementById(id);
+		if(e.style.display == 'block')
+		e.style.display = 'none';
+		else
+		e.style.display = 'block';
+	}
+</script>
