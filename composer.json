@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Fishbowlprizes_Fishbowl",
+    "name": "OpenMageModuleFostering\/Fishbowlprizes_Fishbowl",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Fishbowl Prizes is a simple solution for operating and prize giveaway to display on your website, combined with a marketplace showing all of the best giveaways run by merchants using the software.",
     "authors": [
-    {
-        "name": "Fishbowl Prizes",
-        "email": "scott@fishbowlprizes.com"
-    }
-],
+        {
+            "name": "Fishbowl Prizes",
+            "email": "scott@fishbowlprizes.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
